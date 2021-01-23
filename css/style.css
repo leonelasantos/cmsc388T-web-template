@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     font-family: Raleway;
-    color: rgb(73, 73, 73);
+    color: black;
 }
 
 html, body {
@@ -42,12 +42,20 @@ html, body {
     padding: 0 5%;
 }
 
+h1.my-name.my-name-large {
+    color: white;
+}
+
+p:hover {
+    font-size: 2em;
+}
 .main-header {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     background-image: url('https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg');
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
+    filter: invert(5%);
 }
 
 .header-strip {
@@ -102,9 +110,9 @@ html, body {
 .about-prof-image {
     float: left;
     height: 175px;
-    width: 190px;
+    width: 200px;
     margin: 30px;
-    border-radius: 50%;
+    border-radius: 45%;
 }
 
 .res-element {
@@ -114,12 +122,13 @@ html, body {
 
 .main-footer {
     background-color: red;
-    color: white;
+    background-image: url('https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
     position: fixed;
     bottom: 0;
     width: 100%;
-
-
+    filter: invert(5%);
 }
 
 .main-footer-container {
