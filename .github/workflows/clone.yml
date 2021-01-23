@@ -14,5 +14,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: | 
-              cd ../pub
+              cd ..
+              cd pub/
               git clone https://github.com/leonelasantos/leonelasantos.github.io.git
