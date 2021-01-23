@@ -115,6 +115,10 @@ p:hover {
     border-radius: 45%;
 }
 
+.about-prof-image:hover {
+    transform: scale(1.5);
+}
+
 .res-element {
     float: left;
     margin: 15px;
