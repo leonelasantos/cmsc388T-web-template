@@ -16,4 +16,4 @@ jobs:
           script: | 
               cd ..
               cd pub/
-              git clone https://github.com/leonelasantos/leonelasantos.github.io.git
+              git clone git@github.com:leonelasantos/leonelasantos.github.io.git
